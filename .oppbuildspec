@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<buildspec version="4.0">
+    <dir makemake-options="--deep -O out -I/opt/omnetpp/samples/ofomnet/openflow -I. --meta:recurse --meta:export-include-path --meta:use-exported-include-paths --meta:export-library --meta:use-exported-libs --meta:feature-cflags --meta:feature-ldflags -- /opt/omnetpp/samples/ofomnet/openflow/out/gcc-debug/*.o /opt/omnetpp/samples/ofomnet/openflow/out/gcc-debug/ctrlApps/*.o /opt/omnetpp/samples/ofomnet/openflow/out/gcc-debug/messages/*.o /opt/omnetpp/samples/ofomnet/openflow/out/gcc-debug/utility/*.o" path="." type="makemake"/>
+</buildspec>
